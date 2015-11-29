@@ -68,7 +68,7 @@ public class Response {
      *
      * @return input stream / error stream
      */
-    private InputStream getStream() {
+    public InputStream getStream() {
         return stream;
     }
 
